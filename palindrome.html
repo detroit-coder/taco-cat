@@ -1,0 +1,8 @@
+<div ng-controller="palindromeController"></div>
+<h3>Want to know if a word is a Palindrome? Let's find out!</h3>
+<div>
+    Enter Word: <input type="text" ng-model="word" />
+</div>
+<div ng-if="palicheck(word)">The Given word <b>{{word}}</b> is palindrome</div>
+<div ng-if="!palicheck(word)">The Given word <b>{{word}}</b> is not palindrome</div>
+</div>
